@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import webIcon from "./websiteIcon.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -20,6 +21,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nextjs from "./tech/nextjs.svg";
+import flutter from "./tech/flutter.png"
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -29,6 +33,11 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import ticketa from "./ticketa.png";
+import justodo from "./justodo.png";
+import jamazan from "./jamazan.png"
+import federalCenter from "./federalCenter.png"
+import federalClub from "./federalClub.png"
 
 export {
   logo,
@@ -50,6 +59,8 @@ export {
   reactjs,
   redux,
   tailwind,
+  flutter,
+  nextjs,
   typescript,
   threejs,
   meta,
@@ -59,4 +70,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  ticketa,
+  justodo,
+  jamazan,
+  federalCenter,
+  federalClub,
+  webIcon,
 };
