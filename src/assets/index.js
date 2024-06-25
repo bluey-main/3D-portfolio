@@ -38,8 +38,11 @@ import justodo from "./justodo.png";
 import jamazan from "./jamazan.png"
 import federalCenter from "./federalCenter.png"
 import federalClub from "./federalClub.png"
+import inventiva from "./inventiva.png"
+import winifred from "./winifred.png"
 
 export {
+  winifred,
   logo,
   backend,
   creator,
@@ -76,4 +79,5 @@ export {
   federalCenter,
   federalClub,
   webIcon,
+  inventiva,
 };
