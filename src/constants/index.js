@@ -32,6 +32,8 @@ import {
   federalClub,
   inventiva,
   winifred,
+  pluralCap,
+  ucap,
 } from "../assets";
 
 export const navLinks = [
@@ -39,6 +41,15 @@ export const navLinks = [
     id: "about",
     title: "About",
   },
+  {
+    id: "experience",
+    title: "Experience",
+  },
+  {
+    id: "technologies",
+    title: "Technologies",
+  },
+  
   {
     id: "work",
     title: "Work",
@@ -154,7 +165,7 @@ const experiences = [
     ],
   },
   {
-    title: "Flutter Developer (Inten)",
+    title: "Flutter Developer (Intern)",
     company_name: "Inventiva",
     icon: inventiva,
     iconBg: "#FFFFFF",
@@ -174,19 +185,27 @@ const experiences = [
        "Developed and maintained the website for winifred unusual a Nigerian movie prouces using Wordpress and other related technologies."
     ],
   },
+  {
+    title: "Web Developer (Freelance)",
+    company_name: "Plural Capital Ltd.",
+    icon: pluralCap,
+    iconBg: "#FFFFFF",
+    date: "August 2023 - August 2023",
+    points: [
+       "Developed and maintained the company website for plural Capital Limited a Microcredit firm,."
+    ],
+  },
   // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
+  //   title: "Web Developer (Intern)",
+  //   company_name: "United Capital Plc",
+  //   icon: ucap,
+  //   iconBg: "#FFFFFF",
+  //   date: "",
   //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //      "Collaborated with other developers on in house projects."
   //   ],
   // },
+
 ];
 
 const testimonials = [

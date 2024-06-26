@@ -40,8 +40,15 @@ import federalCenter from "./federalCenter.png"
 import federalClub from "./federalClub.png"
 import inventiva from "./inventiva.png"
 import winifred from "./winifred.png"
+import pluralCap from "./plural.png"
+import ucap from "./ucap.png"
+
+import victor from "./Victor.jpeg"
 
 export {
+  victor,
+  ucap,
+  pluralCap,
   winifred,
   logo,
   backend,

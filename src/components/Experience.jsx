@@ -12,9 +12,9 @@ const ExperienceCard = ({experience}) => {
 
     
     <VerticalTimelineElement
-      contentStyle={{ background: '#1d1836', color: '#FF8A00' }}
-      contentArrowStyle={{ borderRight: '7px solid #FF8A00' }}
-      date={experience.date}
+      contentStyle={{ background: '#2D3748', color: '#FFFFFF' }}
+      contentArrowStyle={{ borderRight: '7px solid #FFFFFF' }}
+      date={""}
       iconStyle={{ background: experience.iconBg}}
       icon={
         <div className='flex justify-center items-center w-full h-full'>
@@ -28,7 +28,7 @@ const ExperienceCard = ({experience}) => {
     >
       <div>
         <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
-        <p className='text-secondary text-[16px] font-semibold' style={{ margin: 0 }}>
+        <p className='text-[#e3e3e3] text-[16px] font-semibold' style={{ margin: 0 }}>
           {experience.company_name}
         </p>
       </div>
@@ -65,4 +65,4 @@ const Experience = () => {
   )
 }
 
-export default SectionWrapper(Experience, "work ")
+export default SectionWrapper(Experience, "experience")
