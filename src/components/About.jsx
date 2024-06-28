@@ -2,7 +2,7 @@ import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { services } from "../constants";
+import { services, social } from "../constants";
 import { fadeIn, floatingComponent, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 import { victor } from "../assets";
@@ -58,6 +58,21 @@ const About = () => {
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div> */}
+
+      <div className="p-y-2 flex flex-wrap bg-red- gap-5 mt-3">
+          {social.map((item) => (
+            
+            <div onClick={() => window.open(item.link, "_blank")} className="py-2 px-4 rounded-3xl flex gap-3 cursor-pointer items-center justify-center bg-[rgba(255,255,255,0.3)] backdrop-blur-lg" key={item.name}>
+              <div className="w-5">
+              <img src={item.icon} alt={item.name} className="object-contain"/>
+              </div>
+              <div className="flex-1">
+                <p>{item.name}</p>
+              </div>
+              
+            </div>
+          ))}
+      </div>
       </div>
 
       <motion.div

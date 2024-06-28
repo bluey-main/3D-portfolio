@@ -7,6 +7,8 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import webIcon from "./websiteIcon.png"
+import linkedin from "./linkedin.png"
+import twitter from "./x.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -23,6 +25,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import nextjs from "./tech/nextjs.svg";
 import flutter from "./tech/flutter.png"
+
 
 
 import meta from "./company/meta.png";
@@ -46,6 +49,7 @@ import ucap from "./ucap.png"
 import victor from "./Victor.jpeg"
 
 export {
+  twitter, linkedin,
   victor,
   ucap,
   pluralCap,

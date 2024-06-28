@@ -10,10 +10,10 @@ const Tech = () => {
   return (
     <>
         <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>What Toold do I use</p>
+        <p className={styles.sectionSubText}>What Tools do I use</p>
         <h2 className={styles.sectionHeadText}>Technologies</h2>
       </motion.div>
-    <div className="flex flex-wrap flex-row justify-start gap-10 mt-10">
+    <div className="flex flex-wrap flex-row justify-center gap-10 mt-10">
       {technologies.map((technology) => (
         <div className="w-28 h-28" key={technology.name}>
           <BallCanvas icon={technology.icon} />

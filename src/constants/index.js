@@ -1,3 +1,4 @@
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import {
   mobile,
   backend,
@@ -34,6 +35,9 @@ import {
   winifred,
   pluralCap,
   ucap,
+  linkedin,
+  twitter,
+  github,
 } from "../assets";
 
 export const navLinks = [
@@ -348,4 +352,22 @@ const projects = [
 
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const social = [
+  {
+    name: "Linkedin",
+    icon: linkedin,
+    link: "https://www.linkedin.com/in/victor-ekeocha-ibe/"
+  },
+  {
+    name: "Twitter",
+    icon: twitter,
+    link: "https://www.linkedin.com/in/victor-ekeocha-ibe/"
+  },
+  {
+    name: "Github",
+    icon: github,
+    link: "https://github.com/bluey-main/"
+  },
+]
+
+export { services, technologies, experiences, testimonials, projects, social };
